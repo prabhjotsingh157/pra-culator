@@ -1,4 +1,3 @@
-package windowBuilder;
 
 import java.awt.EventQueue;
 import javax.swing.JFrame;
@@ -13,7 +12,7 @@ import java.awt.event.ActionEvent;
 import java.awt.Color;
 import java.awt.Toolkit;
 
-public class Calculater {
+public class Calculator {
 
 	private JFrame Praculator;
 	private JLabel jLabel;
@@ -29,7 +28,7 @@ public class Calculater {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Calculater window = new Calculater();
+					Calculator window = new Calculator();
 					window.Praculator.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -41,7 +40,7 @@ public class Calculater {
 	/**
 	 * Create the application.
 	 */
-	public Calculater() {
+	public Calculator() {
 		initialize();
 		radioOn.setEnabled(false);
 		
@@ -129,7 +128,6 @@ public class Calculater {
 	
 	private void initialize() {
 		Praculator = new JFrame();
-		Praculator.setIconImage(Toolkit.getDefaultToolkit().getImage("D:\\wallpapers\\WALLPAPPER\\My brother picture\\DSC00038.JPG"));
 		Praculator.setTitle("Praculator");
 		Praculator.setResizable(false);
 		Praculator.setBounds(100, 100, 280, 425);
