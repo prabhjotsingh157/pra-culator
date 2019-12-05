@@ -125,7 +125,6 @@ public class Calculater {
 	 */
 	private void initialize() {
 		Praculator = new JFrame();
-		Praculator.setIconImage(Toolkit.getDefaultToolkit().getImage("D:\\wallpapers\\WALLPAPPER\\My brother picture\\DSC00038.JPG"));
 		Praculator.setTitle("Praculator");
 		Praculator.setResizable(false);
 		Praculator.setBounds(100, 100, 280, 425);
