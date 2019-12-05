@@ -1,2 +1,2 @@
 # pra-culator
-First GUI calculator
+First GUI calculator with JAVA
